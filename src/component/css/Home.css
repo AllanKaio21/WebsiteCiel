@@ -1,0 +1,9 @@
+.home {
+    background-image: url(../../images/banner.png);
+    background-size: 100%;
+}
+
+.features {
+    width: 50vh;
+    height: 70vh;
+}

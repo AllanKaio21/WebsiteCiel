@@ -11,6 +11,21 @@
       "src": "./images/banner.png",
       "sizes": "1920x768",
       "type": "image/x-png"
+    },
+    {
+      "src": "./images/chibi.png",
+      "sizes": "1000x750",
+      "type": "image/x-png"
+    },
+    {
+      "src": "./images/chibi_happy.png",
+      "sizes": "1000x750",
+      "type": "image/x-png"
+    },
+    {
+      "src": "./images/chibi_standing.png",
+      "sizes": "1000x750",
+      "type": "image/x-png"
     }
   ],
   "start_url": ".",

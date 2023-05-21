@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home";
+import About from "./About";
+import Commands from "./Commands";
 
 export default class MenuRoutes extends React.Component {
   render() {
@@ -11,13 +13,10 @@ export default class MenuRoutes extends React.Component {
                 <Route path="/" element={ <Home></Home> }>
                 </Route>
 
-                <Route path="/about" element={ <h1>ABOUT</h1> }>
+                <Route path="/about" element={ <About></About> }>
                 </Route>
 
-                <Route path="/commands" element={ <h1>COMMANDS</h1> }>
-                </Route>
-
-                <Route path="/contact" element={ <h1>CONTACT</h1> }>
+                <Route path="/commands" element={ <Commands></Commands> }>
                 </Route>
 
             </Routes>

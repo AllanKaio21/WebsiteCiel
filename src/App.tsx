@@ -1,16 +1,12 @@
-import MenuBar from "./component/MenuBar";
-import MenuRoutes from "./component/MenuRoutes";
+import MenuBar from "./component/script/MenuBar";
+import MenuRoutes from "./component/script/MenuRoutes";
 import './App.css';
 
 function App() {
   return (
     <div className="app text-center">
-      <div className="w-full fixed">
-        <MenuBar/>
-      </div>
-      <div>
-        <MenuRoutes/>
-      </div>
+      <MenuBar/>
+      <MenuRoutes/>
     </div>
   );
 }
